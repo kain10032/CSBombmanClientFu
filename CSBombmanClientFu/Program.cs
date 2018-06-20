@@ -6,7 +6,8 @@ namespace CSBombmanClientFu
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Com c =  new Com();
+            c.Run();
         }
     }
 }
